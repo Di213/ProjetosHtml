@@ -1,0 +1,103 @@
+.logo-container{
+  text-align: center;
+  position: relative;
+}
+
+.logo-img{
+  width: 100px;
+  height: auto;
+  display: inline-block;
+  position: static left;
+
+}
+.container {
+  max-width: 1140px;
+}
+
+.col-12 {
+  text-align: center;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* #region Theme */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: "NeueHaasGroteskDisplayPro65Medium" !important;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.lead {
+  color: #3d5a80;
+}
+
+.btn {
+  --bs-btn-border-radius: 0.35rem;
+}
+
+.btn-primary {
+  --bs-btn-bg: #1466cf;
+  --bs-btn-border-color: #1466cf;
+  --bs-btn-disabled-bg: #1466cf;
+  --bs-btn-disabled-border-color: #1466cf;
+
+  padding: 0.8em 1.5em;
+}
+
+/* #endregion Theme */
+
+/* #region Accordion Customizations */
+#accordionFAQ .accordion-item {
+  /* border: 0; */
+  margin: 15px 0;
+  border: 1px solid var(--bs-accordion-border-color);
+  border-radius: var(--bs-accordion-border-radius);
+}
+
+#accordionFAQ .accordion-button,
+#accordionFAQ .accordion-button.collapsed {
+  border: 0;
+  border-radius: var(--bs-accordion-border-radius);
+}
+
+.accordion-button::after {
+  display: none;
+}
+
+/* #endregion Accordion Customizations */
+
+/* #region Utilities */
+.p-relative {
+  position: relative;
+}
+
+/* #@endregion Utilities */
+
+/* #region footer */
+.footer-staff02 {
+  position: absolute;
+  right: -100px;
+  bottom: -300px;
+}
+
+@media (min-width: 992px) {
+  footer {
+    min-height: 650px;
+  }
+}
+
+/* #endregion footer */
